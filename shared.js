@@ -27,7 +27,7 @@ import {
 const firebaseConfig = {
   apiKey: "AIzaSyAJqn3tg1k3ahuRJczPFNy-n-jkmmjkw74",
   authDomain: "catttt-e9023.firebaseapp.com",
-  databaseURL: "PASTE_REALTIME_DATABASE_URL_HERE",
+  databaseURL: "https://catttt-e9023-default-rtdb.firebaseio.com/moderators",
   projectId: "catttt-e9023",
   storageBucket: "catttt-e9023.firebasestorage.app",
   messagingSenderId: "822367307634",
