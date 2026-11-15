@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "queue": {
+      ".read": true,
+      ".write": "auth != null && root.child('moderators').child(auth.uid).val() === true"
+    },
+    "moderators": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": false
+      }
+    }
+  }
+}
